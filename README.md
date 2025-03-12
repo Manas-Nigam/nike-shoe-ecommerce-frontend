@@ -1,38 +1,83 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Nike ecommerce Project
 
-## Getting Started
+This is a Next.js project.
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+To set up the project on your local machine, follow these steps:
+
+### Prerequisites
+Make sure you have the following installed:
+- [Node.js](https://nodejs.org/) (LTS recommended)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
+
+### Clone the Repository
+```sh
+git clone https://github.com/manas-nigam/nike-shoe-ecommerce-frontend.git
+cd nike-shoe-ecommerce-frontend
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Install Dependencies
+#### Using npm:
+```sh
+npm install
+```
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### Using yarn:
+```sh
+yarn install
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Running the Project
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Development Mode
+To start the development server, run:
+```sh
+npm run dev
+```
+OR
+```sh
+yarn dev
+```
+The project will be available at [`http://localhost:3000/`](http://localhost:3000/).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Production Mode
+To build the project for production:
+```sh
+npm run build
+```
+OR
+```sh
+yarn build
+```
+To start the production server:
+```sh
+npm run start
+```
+OR
+```sh
+yarn start
+```
 
-## Learn More
+## Environment Variables
+Create a `.env.local` file in the root directory and add necessary environment variables:
+```env
+NEXT_PUBLIC_API_URL=https://api.example.com
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Linting & Formatting
+To lint the code:
+```sh
+npm run lint
+```
+To format the code:
+```sh
+npm run format
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contributing
+Pull requests are welcome. Please follow the standard commit message format and coding guidelines.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
+This project is licensed under the [MIT License](LICENSE).
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
