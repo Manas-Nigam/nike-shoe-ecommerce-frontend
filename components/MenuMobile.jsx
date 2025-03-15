@@ -3,10 +3,12 @@ import Link from "next/link";
 import { BsChevronDown } from "react-icons/bs";
 
 const data = [
-    { id: 1, name: "Home", url: "/" },
-    { id: 2, name: "About", url: "/about" },
-    { id: 3, name: "Categories", subMenu: true },
-    { id: 4, name: "Contact", url: "/contact" },
+    { id: 1, name: "Men", url: "/men" },
+    { id: 2, name: "Women", url: "/about" },
+    { id: 3, name: "Kids",url:"kids" },
+    { id: 5, name: "Customise", url: "/customise" },
+    { id: 6, name: "Sales", url: "/sales" },
+    { id: 7, name: "SNKRS", url: "/snkrs" },
 ];
 
 const subMenuData = [
